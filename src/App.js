@@ -2,22 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Noaman Saleem</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Bootcamp 2023
-        </a>
-      </header>
-    </div>
-  );
+  return <h1>Hello From App.js</h1>;
 }
 
 export default App;
