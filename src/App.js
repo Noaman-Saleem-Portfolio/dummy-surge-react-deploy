@@ -1,5 +1,9 @@
-function App() {
-  return <h1>Hello From App.js</h1>;
-}
+import React from "react";
+import MyLife from "./MyLife";
+import "./styles.css";
+
+const App = () => {
+  return <MyLife name="Ali" age="23" />;
+};
 
 export default App;
